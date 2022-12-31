@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightslategray;
+        }
+
+        .navbar ul {
+            margin: 20px 0px;
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .navbar ul li {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .navbar ul li a {
+            text-decoration-line: none;
+            padding: 8px 25px;
+        }
+
+        .navbar ul li a:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 0 0 10px white;
+        }
+
+        .about {
+            width: 100%;
+            padding: 0;
+            background-color: black;
+        }
+
+        div.container {
+            display: flex;
+            width: 100%;
+            background-color: rosybrown;
+        }
+
+        img {
+            width: 300px;
+            margin-left: 400px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+            border-radius: 45%;
+            margin-right: 100px;
+            opacity: .5;
+        }
+
+        div.content {
+            margin-top: 100px;
+            margin-left: 30px;
+            padding-left: 20px;
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        div.content button {
+            margin-left: 50px;
+        }
+
+        button {
+            display: inline-block;
+            background: linear-gradient(45deg, rgb(176, 164, 176));
+            border-radius: 8px;
+            padding: 10px 20px;
+            color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="content">
+            <p class="text-center">I am Songa Sowmya Madhuri.</p>
+            <button class="portfolio_Button">My Portfolio</button>
+        </div>
+        <img src="C:\Users\sravy\OneDrive\Pictures\Saved Pictures\myself.jpg">
+    </div>
+
+
+    <div>
+        <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                        <tr>
+                            <td height="180" align="center" valign="middle" colspan="2">
+                                <font face="Verdana" size="7" color="#4CAF50">
+                                    About Me
+                                </font>
+                                <hr color="#4CAF50" width="90">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="40%">
+                                <img src="img.png">
+                            </td>
+
+                            <td width="60%">
+                                <font face="Verdana" size="4" color="white">
+                                    Thanks for your interest, here
+                                    is a quick story of me and this
+                                    website.
+                                    <br>
+                                    <br>
+                                    My Name is Sowmya!
+                                    <br>
+                                    <br>
+                                    I do my work mainly in Front-End web development.Besides these I know C-Language,
+                                    python and JAVA. are my stronger section.
+                                    <br>
+                                    <br>
+                                    This website is basically one of my
+                                    Web Development project which is
+                                    built using HTML and CSS only.
+                                    Thanks You
+                                </font>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr color="black">
+                    <hr color="black">
+                    <hr color="black">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="7" color="black">
+                                Contact
+                            </font>
+                            <hr color="black" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="50%" cellpadding="15" cellspacing="0" align="center"
+                                bgcolor="black">
+                                <tr>
+                                    <td width="30%">
+                                        <hr color="black">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Name
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Email
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="email" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Number
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="number" size="12">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Message
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <textarea rows="5" cols="37">
+                                     </textarea>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+
+                                    </td>
+                                    <td width="70%">
+                                        <button type="Submit">
+                                            <font face="Verdana" size="4" color="black">
+                                                <b>Submit</b>
+                                            </font>
+                                        </button>
+                                        <hr color="black">
+                                        <hr color="black">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
